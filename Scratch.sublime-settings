@@ -1,4 +1,6 @@
 {
-    "save_path": "~/Documents/Scratch",
-    "extension" : ".py"
+    "save_path": "~/Documents/scratch",
+    "extension" : ".py",
+    "filename_type": "date",
+    "filename_format": "%Y-%m-%d-%H%M%S"
 }

@@ -11,8 +11,8 @@ Scratch is a simple Sublime Text plugin that makes it easy to create scratch fil
 2. A new file is opened. The file is named "*number*.*extension*". *number* is an integer that is set to one more than the last saved Scratch file name. *extension* is a user-configurable extension.  
 
   **Example**  
-  ```File > New Scratch File``` to open "0.py". Save the file.  
-  ```File > New Scratch File``` to open "1.py".
+  `File > New Scratch File` to open "0.py". Save the file.
+  `File > New Scratch File` to open "1.py".
 
 ###Changing File Extensions Quickly
 To quickly change the extension of a Scratch file: 
@@ -22,7 +22,7 @@ To quickly change the extension of a Scratch file:
 3. The file now has the the new extension
 
   **Example**  
-  ```File > New Scratch File``` to open "0.py".  
+  `File > New Scratch File` to open "0.py".
   Type ".js" as the only text in the first line.  
   Save the file.  
   The file is now named "0.js" 
@@ -33,5 +33,25 @@ By default Scratch will save files to ```~/Documents/Scratch``` with the extensi
 {
     "save_path": "~/Documents/Scratch",
     "extension" : ".py"
+}
+```
+
+Or like:
+```
+{
+    "save_path": "~/Documents/scratch",
+    "extension" : ".py",
+    "filename_type": "date",
+    "filename_format": "%Y-%m-%d-%H%M%S"
+}
+```
+
+Or maybe like:
+```
+{
+    "save_path": "~/Documents/Scratch",
+    "extension" : ".py",
+    "filename_type": "number",
+    "filename_format": "%05d"
 }
 ```
