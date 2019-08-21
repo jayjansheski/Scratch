@@ -36,7 +36,7 @@ By default Scratch will save files to ```~/Documents/Scratch``` with the extensi
 }
 ```
 
-Or like:
+Alternately, you can use date formatting for the file names:
 ```
 {
     "save_path": "~/Documents/scratch",
@@ -46,7 +46,7 @@ Or like:
 }
 ```
 
-Or maybe like:
+Or if you prefer, you can zero-pad your numbers to keep the files sorted properly:
 ```
 {
     "save_path": "~/Documents/Scratch",
